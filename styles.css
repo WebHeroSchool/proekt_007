@@ -48,14 +48,14 @@ body {
   padding: 71px 66% 167px 2px;
 }
 
-.title-main__title {
+.main__title {
   margin: 1px 0 38px 1px;
   font: bold 40px/47px "robotoblack", arial, helvetica, sans-serif;
   color: #E1E6E9;
   width: 150%;
 }
 
-.sabtitle-main__subtitle {
+.main__subtitle {
   margin: 0 0 60px 1px;
   font: bold 20px/23px "robotoblack", arial, helvetica, sans-serif;
   color: #E1E6E9;
