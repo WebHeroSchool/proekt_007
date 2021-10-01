@@ -4,7 +4,7 @@ body {
 .wrapper {
   margin: auto;
 }
-.zadniy-fon {
+.background {
   height: 840px;
   background-size: cover;
   background: no-repeat url(img/mainimg.png);
@@ -13,18 +13,17 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 130px;
+  margin-bottom: 128px;
 }
 
 .menu {
   display: flex;
-  align-items: center;
-  padding-top: 28px;
+  padding: 71px 0 0 586px;
 }
 
 .menu__item {
   position: relative;
-  margin-right: 27.5px;
+  margin-right: 55px;
   font: bold 18px/21px "robotoblack", arial, helvetica, sans-serif;
   color: #FFFFFF;
   text-decoration: none;
@@ -45,19 +44,27 @@ body {
 }
 
 .main {
-  padding: 71px 66% 167px 2px;
+  padding: 0 0 144px 958px;
 }
 
-.main__title {
+.title {
   margin: 1px 0 38px 1px;
   font: bold 40px/47px "robotoblack", arial, helvetica, sans-serif;
   color: #E1E6E9;
   width: 150%;
 }
 
-.main__subtitle {
-  margin: 0 0 60px 1px;
-  font: bold 20px/23px "robotoblack", arial, helvetica, sans-serif;
+.subtitle {
+  margin: 0 0 27px 67px;
+  font: 20px/23px "robotoblack", arial, helvetica, sans-serif;
   color: #E1E6E9;
   width: 86%;
 }
+
+.main__button {
+  font: 20px/23px "robotoblack", arial, helvetica, sans-serif;
+  color: #FFFFFF;
+  background: #E0036F;
+  padding: 10px 70px 15px 66px;
+  margin: 0 0 0 153px;
+  text-decoration: none;
